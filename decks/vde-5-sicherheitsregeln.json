@@ -1,0 +1,243 @@
+{
+    "format":  "karteikarten-v1",
+    "deck":  {
+                 "id":  "vde-5-regeln",
+                 "title":  "5 Sicherheitsregeln (VDE)"
+             },
+    "cards":  [
+                  {
+                      "id":  "r1-text",
+                      "type":  "input",
+                      "question":  "Wie lautet die Sicherheitsregel Nr. 1?",
+                      "answers":  [
+                                      "Freischalten"
+                                  ],
+                      "mode":  "fuzzy",
+                      "inputmode":  "text",
+                      "explanation":  "Zuerst wird die Anlage allseitig abgeschaltet und getrennt, damit sie nicht mehr unter Spannung steht."
+                  },
+                  {
+                      "id":  "r2-text",
+                      "type":  "input",
+                      "question":  "Wie lautet die Sicherheitsregel Nr. 2?",
+                      "answers":  [
+                                      "Gegen Wiedereinschalten sichern",
+                                      "Sichern gegen Wiedereinschalten"
+                                  ],
+                      "mode":  "fuzzy",
+                      "inputmode":  "text",
+                      "explanation":  "Ein Wiedereinschalten (auch versehentlich oder durch Dritte) muss verhindert werden."
+                  },
+                  {
+                      "id":  "r3-text",
+                      "type":  "input",
+                      "question":  "Wie lautet die Sicherheitsregel Nr. 3?",
+                      "answers":  [
+                                      "Spannungsfreiheit feststellen",
+                                      "Spannungsfreiheit allpolig feststellen",
+                                      "Spannungsfreiheit allpolig an der Arbeitsstelle feststellen"
+                                  ],
+                      "mode":  "fuzzy",
+                      "inputmode":  "text",
+                      "explanation":  "Erst die Messung beweist, dass wirklich keine Spannung anliegt – Schaltzustände allein genügen nicht."
+                  },
+                  {
+                      "id":  "r4-text",
+                      "type":  "input",
+                      "question":  "Wie lautet die Sicherheitsregel Nr. 4?",
+                      "answers":  [
+                                      "Erden und kurzschließen",
+                                      "Erden und Kurzschließen"
+                                  ],
+                      "mode":  "fuzzy",
+                      "inputmode":  "text",
+                      "explanation":  "Erden und Kurzschließen kommt erst nach der Spannungsfreiheit, sonst würde man auf eine unter Spannung stehende Anlage schalten."
+                  },
+                  {
+                      "id":  "r5-text",
+                      "type":  "input",
+                      "question":  "Wie lautet die Sicherheitsregel Nr. 5?",
+                      "answers":  [
+                                      "Benachbarte, unter Spannung stehende Teile abdecken oder abschranken",
+                                      "Benachbarte spannungsführende Teile abdecken oder abschranken"
+                                  ],
+                      "mode":  "fuzzy",
+                      "inputmode":  "text",
+                      "explanation":  "Benachbarte Teile bleiben unter Spannung und werden gegen zufälliges Berühren geschützt."
+                  },
+                  {
+                      "id":  "r1-nr",
+                      "type":  "input",
+                      "question":  "Welche Nummer hat die Regel ‚Freischalten‘?",
+                      "answers":  [
+                                      "1"
+                                  ],
+                      "mode":  "exact",
+                      "inputmode":  "numeric",
+                      "explanation":  "Zuerst wird die Anlage allseitig abgeschaltet und getrennt, damit sie nicht mehr unter Spannung steht."
+                  },
+                  {
+                      "id":  "r2-nr",
+                      "type":  "input",
+                      "question":  "Welche Nummer hat die Regel ‚Gegen Wiedereinschalten sichern‘?",
+                      "answers":  [
+                                      "2"
+                                  ],
+                      "mode":  "exact",
+                      "inputmode":  "numeric",
+                      "explanation":  "Ein Wiedereinschalten (auch versehentlich oder durch Dritte) muss verhindert werden."
+                  },
+                  {
+                      "id":  "r3-nr",
+                      "type":  "input",
+                      "question":  "Welche Nummer hat die Regel ‚Spannungsfreiheit feststellen‘?",
+                      "answers":  [
+                                      "3"
+                                  ],
+                      "mode":  "exact",
+                      "inputmode":  "numeric",
+                      "explanation":  "Erst die Messung beweist, dass wirklich keine Spannung anliegt – Schaltzustände allein genügen nicht."
+                  },
+                  {
+                      "id":  "r4-nr",
+                      "type":  "input",
+                      "question":  "Welche Nummer hat die Regel ‚Erden und kurzschließen‘?",
+                      "answers":  [
+                                      "4"
+                                  ],
+                      "mode":  "exact",
+                      "inputmode":  "numeric",
+                      "explanation":  "Erden und Kurzschließen kommt erst nach der Spannungsfreiheit, sonst würde man auf eine unter Spannung stehende Anlage schalten."
+                  },
+                  {
+                      "id":  "r5-nr",
+                      "type":  "input",
+                      "question":  "Welche Nummer hat die Regel ‚Benachbarte, unter Spannung stehende Teile abdecken oder abschranken‘?",
+                      "answers":  [
+                                      "5"
+                                  ],
+                      "mode":  "exact",
+                      "inputmode":  "numeric",
+                      "explanation":  "Benachbarte Teile bleiben unter Spannung und werden gegen zufälliges Berühren geschützt."
+                  },
+                  {
+                      "id":  "next1",
+                      "type":  "choice",
+                      "question":  "Welche Regel folgt direkt auf ‚Freischalten‘?",
+                      "options":  [
+                                      "Gegen Wiedereinschalten sichern",
+                                      "Freischalten",
+                                      "Spannungsfreiheit feststellen",
+                                      "Erden und kurzschließen"
+                                  ],
+                      "correct":  [
+                                      0
+                                  ],
+                      "multi":  false,
+                      "shuffle":  true,
+                      "explanation":  "Auf Regel 1 folgt Regel 2. Ein Wiedereinschalten (auch versehentlich oder durch Dritte) muss verhindert werden."
+                  },
+                  {
+                      "id":  "next2",
+                      "type":  "choice",
+                      "question":  "Welche Regel folgt direkt auf ‚Gegen Wiedereinschalten sichern‘?",
+                      "options":  [
+                                      "Spannungsfreiheit feststellen",
+                                      "Freischalten",
+                                      "Gegen Wiedereinschalten sichern",
+                                      "Erden und kurzschließen"
+                                  ],
+                      "correct":  [
+                                      0
+                                  ],
+                      "multi":  false,
+                      "shuffle":  true,
+                      "explanation":  "Auf Regel 2 folgt Regel 3. Erst die Messung beweist, dass wirklich keine Spannung anliegt – Schaltzustände allein genügen nicht."
+                  },
+                  {
+                      "id":  "next3",
+                      "type":  "choice",
+                      "question":  "Welche Regel folgt direkt auf ‚Spannungsfreiheit feststellen‘?",
+                      "options":  [
+                                      "Erden und kurzschließen",
+                                      "Freischalten",
+                                      "Gegen Wiedereinschalten sichern",
+                                      "Spannungsfreiheit feststellen"
+                                  ],
+                      "correct":  [
+                                      0
+                                  ],
+                      "multi":  false,
+                      "shuffle":  true,
+                      "explanation":  "Auf Regel 3 folgt Regel 4. Erden und Kurzschließen kommt erst nach der Spannungsfreiheit, sonst würde man auf eine unter Spannung stehende Anlage schalten."
+                  },
+                  {
+                      "id":  "next4",
+                      "type":  "choice",
+                      "question":  "Welche Regel folgt direkt auf ‚Erden und kurzschließen‘?",
+                      "options":  [
+                                      "Benachbarte, unter Spannung stehende Teile abdecken oder abschranken",
+                                      "Freischalten",
+                                      "Gegen Wiedereinschalten sichern",
+                                      "Spannungsfreiheit feststellen"
+                                  ],
+                      "correct":  [
+                                      0
+                                  ],
+                      "multi":  false,
+                      "shuffle":  true,
+                      "explanation":  "Auf Regel 4 folgt Regel 5. Benachbarte Teile bleiben unter Spannung und werden gegen zufälliges Berühren geschützt."
+                  },
+                  {
+                      "id":  "multi-welche",
+                      "type":  "choice",
+                      "question":  "Welche gehören zu den 5 Sicherheitsregeln?",
+                      "options":  [
+                                      "Freischalten",
+                                      "Gegen Wiedereinschalten sichern",
+                                      "Spannungsfreiheit feststellen",
+                                      "Erden und kurzschließen",
+                                      "Benachbarte, unter Spannung stehende Teile abdecken oder abschranken",
+                                      "Schutzkleidung anlegen",
+                                      "Isolationswiderstand messen",
+                                      "Fehlerstrom-Schutzschalter prüfen"
+                                  ],
+                      "correct":  [
+                                      0,
+                                      1,
+                                      2,
+                                      3,
+                                      4
+                                  ],
+                      "multi":  true,
+                      "shuffle":  true,
+                      "explanation":  "Die 5 Sicherheitsregeln stellen den spannungsfreien Zustand her; Schutzkleidung und Messungen gehören nicht dazu."
+                  },
+                  {
+                      "id":  "order-herstellen",
+                      "type":  "order",
+                      "question":  "Bringe die 5 Sicherheitsregeln in die richtige Reihenfolge.",
+                      "items":  [
+                                    "Freischalten",
+                                    "Gegen Wiedereinschalten sichern",
+                                    "Spannungsfreiheit feststellen",
+                                    "Erden und kurzschließen",
+                                    "Benachbarte, unter Spannung stehende Teile abdecken oder abschranken"
+                                ],
+                      "explanation":  "Erst freischalten und sichern, dann Spannungsfreiheit feststellen, erst danach erden und benachbarte Teile abdecken."
+                  },
+                  {
+                      "id":  "order-aufheben",
+                      "type":  "order",
+                      "question":  "Reihenfolge beim Aufheben nach Arbeitsende",
+                      "items":  [
+                                    "Benachbarte, unter Spannung stehende Teile abdecken oder abschranken",
+                                    "Erden und kurzschließen",
+                                    "Spannungsfreiheit feststellen",
+                                    "Gegen Wiedereinschalten sichern",
+                                    "Freischalten"
+                                ],
+                      "explanation":  "Die Aufhebung erfolgt in umgekehrter Reihenfolge: zuletzt Angebrachtes zuerst entfernen."
+                  }
+              ]
+}
